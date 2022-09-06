@@ -1,0 +1,131 @@
+
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://i.pinimg.com/564x/34/92/b5/3492b5d846f09fb750e44ec9df22e476.jpg);
+}
+
+
+
+.container {
+  width: auto;
+  height: auto;
+  margin: 5%;
+  padding: 0% auto;
+  background-image: url(https://i.pinimg.com/564x/4d/7e/09/4d7e0907947650b00e181255f826e652.jpg);
+
+}
+
+.wrapper {
+  padding: 4%;
+  width: 80%;
+  margin: 0% auto;
+  background-color: rgb(255, 255, 255)
+}
+h1 {
+  text-align: left;
+  float: left;
+  color: white;
+  font-family: fantasy;
+  font-style: normal;
+  font-weight: lighter;
+  height: 40px;
+  width: 400px;
+  margin-left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-shadow: #b527cf;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-left: 134px;
+  margin-right:  134px;
+  padding-top: 10px;
+  padding-bottom: none;
+  background-image: url(https://i.pinimg.com/564x/52/b5/a6/52b5a665dcdffb45315d8d0a89fbb7af.jpg);
+  
+
+}
+
+.topnav a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: double;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(214, 115, 173);
+  border-radius: 25px;
+}
+
+.topnav a.active {
+  background-color: #ffffff;
+  color: rgb(214, 115, 173);
+  border-radius: 25px;
+  margin-right: 20px;
+}
+* {
+  box-sizing: border-box
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0
+}
+
+  .container{
+    width: 85%;
+    height: 100vh;
+    background-color: #001660;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 4vh;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+  }
+
+  form h3{
+    color: #555;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+
+  }
+  form button{
+    padding: 15px;
+    background-color: #ff5361;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+  }
